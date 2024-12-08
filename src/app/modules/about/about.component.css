@@ -1,0 +1,45 @@
+/* General Section Styling */
+.about h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #343a40;
+  }
+  
+  .about .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about .card-body {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .about .list-group-item {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    line-height: 1.6;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .about .list-inline-item {
+    display: inline-block;
+    font-size: 0.9rem;
+  }
+  
+  .about .badge {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+  

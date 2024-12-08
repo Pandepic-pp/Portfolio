@@ -1,0 +1,29 @@
+<body>
+  <header class="header">
+    <div class="nav d-flex justify-content-center py-3">
+      <a routerLink="/about">About</a>
+      <a routerLink="/work-experience">Work Experience</a>
+      <a routerLink="/projects">Projects</a>
+      <a routerLink="/achievements">Achievements</a>
+    </div>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="d-flex flex-column justify-content-center">
+    <p class="fs-3">&lt;Connect /&gt;</p>
+    <div class="connect d-flex justify-content-center gap-3 mb-3">
+      <a
+        href="https://www.linkedin.com/in/pratyaksh-pandey-5a156220a/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin fa-xl"></i
+      ></a>
+      <a href="mailto:pratyaksh22official@gmail.com" target="_blank"
+        ><i class="fa-solid fa-envelope fa-xl"></i
+      ></a>
+    </div>
+    <p>© 2024 My Portfolio - All Rights Reserved</p>
+  </footer>
+</body>

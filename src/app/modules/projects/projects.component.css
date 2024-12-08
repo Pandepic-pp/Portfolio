@@ -1,0 +1,54 @@
+/* Projects Section Styling */
+.projects h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #343a40;
+  }
+  
+  .projects .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projects .card-header {
+    background: linear-gradient(90deg, #6a097d, #c060a1);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .projects .card-header small {
+    display: block;
+    font-size: 0.9rem;
+    color: #f1f1f1;
+    margin-top: 5px;
+  }
+  
+  .projects .card-body ul {
+    padding-left: 20px;
+  }
+  
+  .projects .card-body ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .card-header a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card-header a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  

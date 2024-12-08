@@ -1,0 +1,37 @@
+/* Work Experience Section Styling */
+.work-exp h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #343a40;
+  }
+  
+  .work-exp .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .work-exp .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .work-exp .card-header {
+    background: linear-gradient(90deg, #1d3557, #457b9d);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .work-exp .card-body ol {
+    padding-left: 20px;
+  }
+  
+  .work-exp .card-body ol li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  

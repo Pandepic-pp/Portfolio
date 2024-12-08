@@ -1,0 +1,63 @@
+/* Container Styling */
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Text Animations */
+.error-animation h1 {
+  font-size: 10rem;
+  position: relative;
+  animation: shake 2s ease-in-out infinite;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.error-animation p {
+  font-size: 1.5rem;
+  animation: fadeIn 3s ease-in-out 1;
+}
+
+.error-animation a {
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.error-animation a:hover {
+  background: #fff;
+  color: #ff4e50;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,72 @@
+/* #AA5486
+#FC8F54
+#FDE7BB
+#FBF4DB */
+
+/* body{
+    height: 100%;
+}
+.nav{
+    background-color: #AA5486;
+    padding: 30px;
+}
+a{
+    font-size: large;
+    margin-right: 10px;
+    color: #FBF4DB;
+}
+main{
+    background-color: #FC8F54;
+    padding: 30px;
+} */
+
+/* General App Layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .header .nav-link {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .header .nav-link:hover {
+    color: #17a2b8; /* Bootstrap's info color */
+  }
+  
+  .main {
+    flex-grow: 1;
+    background: #f8f9fa;
+  }
+  
+  .footer {
+    background: #343a40;
+    color: #ddd;
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  a{
+    color: white;
+  }
+  
